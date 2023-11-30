@@ -1,2 +1,2 @@
 # Oasis
-Python Programming Internshipd
+Python Programming Internship
