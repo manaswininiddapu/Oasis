@@ -29,7 +29,6 @@ def get_weather(api_key, location):
         print("Failed to connect to the weather service")
     except json.JSONDecodeError:
         print("Failed to parse the weather data")
-if _name_ == "_main_":
-    api_key = "c3b3100687e438922607c3e1fe453208"
-    location = input("Enter a city or ZIP code: ")
-    get_weather(api_key, location)
+api_key = "c3b3100687e438922607c3e1fe453208"
+location = input("Enter a city or ZIP code: ")
+get_weather(api_key,location)
